@@ -11,6 +11,8 @@ public class Main{
         horasTrabalhadas = scan.nextInt();
         valorPorHora = scan.nextFloat();
 
+        scan.close();
+
         salario = horasTrabalhadas * valorPorHora;
 
         System.out.printf("NUMBER = %d\n", numeroFuncionario);

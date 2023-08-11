@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main{
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args){
         // área de uma circunferência é: area = π . (raio*raio)
         double area, pi, raio;
         pi = 3.14159;
@@ -9,6 +9,7 @@ public class Main{
         Scanner scan = new Scanner(System.in);
 
         raio = scan.nextDouble();
+        scan.close();
 
         area = pi * (raio * raio);
 

@@ -8,6 +8,8 @@ public class Main{
         num1 = scan.nextInt();
         num2 = scan.nextInt();
 
+        scan.close();
+
         result = num1 + num2;
 
         System.out.println("X = "+result);
